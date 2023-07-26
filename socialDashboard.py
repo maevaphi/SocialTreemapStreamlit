@@ -6,7 +6,7 @@ Created on Thu Jul 25  2023
 """
 import streamlit as st
 import pandas as pd
-import plotly.express as px
+#import plotly.express as px
 from PIL import Image
 #import numpy as np
 #from plotly.subplots import make_subplots
