@@ -1,19 +1,19 @@
 ﻿Stakeholder,Subcategory,Indicator
 Local community,Migration,International migrant stock
-,Respect of indigenous rights,Presence of indigenous population
-,Safe and healthy living conditions,Drinking water coverage
-,,Sanitation coverage
+Local community,Respect of indigenous rights,Presence of indigenous population
+Local community,Safe and healthy living conditions,Drinking water coverage
+Local community,,Sanitation coverage
 Society,Contribution to economic development,Embodied value added total
-,,Public expenditure on education
-,,"Adult illiteracy rate (15+ years), total"
-,Health and Safety,"Health expenditure, total"
-,,Global Peace Index
-,,Life expectancy at birth
+Society,,Public expenditure on education
+Society,,"Adult illiteracy rate (15+ years), total"
+Society,Health and Safety,"Health expenditure, total"
+Society,,Global Peace Index
+Society,,Life expectancy at birth
 Value chain actors,Corruption,Public sector corruption
 Workers,Child labor,"Children in employment, total"
-,Discrimination,Women in the sectoral labour force
-,Fair salary,"Sector average wage, per month"
-,Workers’ rights,Trade union density
-,Health and Safety,Workers affected by natural disasters
-,"Social benefits, legal issues",Evidence of violations of laws and employment regulations
-,,"Hours of work per employee, per week"
+Workers,Discrimination,Women in the sectoral labour force
+Workers,Fair salary,"Sector average wage, per month"
+Workers,Workers’ rights,Trade union density
+Workers,Health and Safety,Workers affected by natural disasters
+Workers,"Social benefits, legal issues",Evidence of violations of laws and employment regulations
+Workers,,"Hours of work per employee, per week"
