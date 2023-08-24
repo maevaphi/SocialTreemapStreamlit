@@ -19,8 +19,8 @@ st.image(img)
 
 
 df = pd.DataFrame({
-    'first column': [ ,'NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
-    'second column': [1, 2, 3, 4]
+    'first column': [,'NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
+    'second column': [0,1, 2, 3, 4]
     })
 
 option = st.selectbox(
