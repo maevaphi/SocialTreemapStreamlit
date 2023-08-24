@@ -104,13 +104,19 @@ if option == "all":
 
 
 with st.expander("What the area size shows for the material and the country?"):
-    st.write("The size of the areas indicates the material amount and the country s market share.")
+    st.write("The size of the areas indicates the material content and the country s market share for mining.")
+    st.write("The material content")
+    st.write("The market share of the mining countries of 5 raw materials (cobalt, lithium, manganese and nickel) is gathered from the latest US Geological Survey.")
 
 with st.expander("What the area size shows for the stakeholders?"):
     st.write("Each stakeholder is allocated to the same area, even though the number of indicators is different.")
 
 with st.expander("What are the colors for?"):    
     st.write("The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).")
+
+with st.expander("References"):    
+    st.write("U.S. Geological Survey, 2022. Mineral Commodity Summaries 2022. https://doi.org/10.3133/mcs2022")
+    st.write("Maister, K., Di Noi, C., Ciroth, A., Srocka, M., 2020. PSILCA v.3")
 
 'maeva.philippot@vub.be'
 
