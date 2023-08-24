@@ -125,7 +125,7 @@ Nickel,0.160635923,Russia,0.112,Russia 11.2%,0.000642544,Workers,Trade union den
 Nickel,0.160635923,Russia,0.112,Russia 11.2%,0.000642544,Workers,Weekly hours of work per employee,4
 Nickel,0.160635923,Russia,0.112,Russia 11.2%,0.000642544,Workers,Women in the sectoral labour force,1
 Nickel,0.160635923,Russia,0.112,Russia 11.2%,0.000642544,Workers,Workers affected by natural disasters,1
-Nickel,0.160635923,RoW,0.2,RoW 20%,0.032127185,,,3.215982143
+Nickel,0.160635923,Rest of the world,0.2,Rest of the world 20%,0.032127185,,,3.215982143
 Manganese,0.451074067,Australia,0.178378378,Australia 17.8%,0.005028866,Local Community,Drinking water coverage,1
 Manganese,0.451074067,Australia,0.178378378,Australia 17.8%,0.005028866,Local Community,International Migrant Stock,5
 Manganese,0.451074067,Australia,0.178378378,Australia 17.8%,0.005028866,Local Community,Presence of indigenous population,3
@@ -234,25 +234,25 @@ Manganese,0.451074067,South Africa,0.281081081,South Africa 28.1%,0.004528157,Wo
 Manganese,0.451074067,South Africa,0.281081081,South Africa 28.1%,0.004528157,Workers,Weekly hours of work per employee,2
 Manganese,0.451074067,South Africa,0.281081081,South Africa 28.1%,0.004528157,Workers,Women in the sectoral labour force,4
 Manganese,0.451074067,South Africa,0.281081081,South Africa 28.1%,0.004528157,Workers,Workers affected by natural disasters,1
-Manganese,0.451074067,RoW,0.178378378,RoW 17.8%,0.080461861,,,3.352264643
+Manganese,0.451074067,Rest of the world,0.178378378,Rest of the world 17.8%,0.080461861,,,3.352264643
 Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,0.00014048,Local Community,Drinking water coverage,1
 Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,0.00014048,Local Community,International Migrant Stock,2
 Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,0.00014048,Local Community,Presence of indigenous population,3
 Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,0.00014048,Local Community,Sanitation coverage,5
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,Embodied value added total,5
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,Global Peace Index,2
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,"Health expenditure, total",3
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,"Illiteracy rate, total",1
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,Life expectancy at birth,1
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.36536E-05,Society,Public expenditure on education,2
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,Embodied value added total,5
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,Global Peace Index,2
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,"Health expenditure, total",3
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,"Illiteracy rate, total",1
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,Life expectancy at birth,1
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,9.37E-05,Society,Public expenditure on education,2
 Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,0.000561922,Value Chain Actors,Public sector corruption,5
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,"Children in employment, total",3
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,Evidence of violations of laws and employment regulations,4
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,"Sector average wage, per month",2
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,Trade union density,4
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,Weekly hours of work per employee,3
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,Women in the sectoral labour force,3
-Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.02745E-05,Workers,Workers affected by natural disasters,1
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,"Children in employment, total",3
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,Evidence of violations of laws and employment regulations,4
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,"Sector average wage, per month",2
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,Trade union density,4
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,Weekly hours of work per employee,3
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,Women in the sectoral labour force,3
+Lithium,0.037993162,Argentina,0.059160305,Argentina 5.9%,8.03E-05,Workers,Workers affected by natural disasters,1
 Lithium,0.037993162,Australia,0.52480916,Australia 52.5%,0.001246197,Local Community,Drinking water coverage,1
 Lithium,0.037993162,Australia,0.52480916,Australia 52.5%,0.001246197,Local Community,International Migrant Stock,5
 Lithium,0.037993162,Australia,0.52480916,Australia 52.5%,0.001246197,Local Community,Presence of indigenous population,3
@@ -307,4 +307,4 @@ Lithium,0.037993162,China,0.133587786,China 13.4%,0.000181265,Workers,Trade unio
 Lithium,0.037993162,China,0.133587786,China 13.4%,0.000181265,Workers,Weekly hours of work per employee,3
 Lithium,0.037993162,China,0.133587786,China 13.4%,0.000181265,Workers,Women in the sectoral labour force,1
 Lithium,0.037993162,China,0.133587786,China 13.4%,0.000181265,Workers,Workers affected by natural disasters,4
-Lithium,0.037993162,RoW,0.034351145,RoW 3.4%,0.001305109,,,2.720608649
+Lithium,0.037993162,Rest of the world,0.034351145,Rest of the world 3.4%,0.001305109,,,2.720608649

@@ -125,7 +125,7 @@ Nickel,0.569063794,Russia,0.112,Russia 11.2%,0.002276255,Workers,Trade union den
 Nickel,0.569063794,Russia,0.112,Russia 11.2%,0.002276255,Workers,Weekly hours of work per employee,4
 Nickel,0.569063794,Russia,0.112,Russia 11.2%,0.002276255,Workers,Women in the sectoral labour force,1
 Nickel,0.569063794,Russia,0.112,Russia 11.2%,0.002276255,Workers,Workers affected by natural disasters,1
-Nickel,0.569063794,RoW,0.2,RoW 20%,0.113812759,,,3.215982143
+Nickel,0.569063794,Rest of the world,0.2,Rest of the world 20%,0.113812759,,,3.215982143
 Cobalt,0.190462604,Australia,0.040714286,Australia 4.1%,0.000484659,Local Community,Drinking water coverage,1
 Cobalt,0.190462604,Australia,0.040714286,Australia 4.1%,0.000484659,Local Community,International Migrant Stock,5
 Cobalt,0.190462604,Australia,0.040714286,Australia 4.1%,0.000484659,Local Community,Presence of indigenous population,3
@@ -252,7 +252,7 @@ Cobalt,0.190462604,Russia,0.045,Russia 4.5%,0.000306101,Workers,Trade union dens
 Cobalt,0.190462604,Russia,0.045,Russia 4.5%,0.000306101,Workers,Weekly hours of work per employee,4
 Cobalt,0.190462604,Russia,0.045,Russia 4.5%,0.000306101,Workers,Women in the sectoral labour force,1
 Cobalt,0.190462604,Russia,0.045,Russia 4.5%,0.000306101,Workers,Workers affected by natural disasters,1
-Cobalt,0.190462604,RoW,0.133571429,RoW 13.4%,0.025440362,,,3.765501708
+Cobalt,0.190462604,Rest of the world,0.133571429,Rest of the world 13.4%,0.025440362,,,3.765501708
 Manganese,0.177551209,Australia,0.178378378,Australia 17.8%,0.001979456,Local Community,Drinking water coverage,1
 Manganese,0.177551209,Australia,0.178378378,Australia 17.8%,0.001979456,Local Community,International Migrant Stock,5
 Manganese,0.177551209,Australia,0.178378378,Australia 17.8%,0.001979456,Local Community,Presence of indigenous population,3
@@ -361,17 +361,17 @@ Manganese,0.177551209,South Africa,0.281081081,South Africa 28.1%,0.001782367,Wo
 Manganese,0.177551209,South Africa,0.281081081,South Africa 28.1%,0.001782367,Workers,Weekly hours of work per employee,2
 Manganese,0.177551209,South Africa,0.281081081,South Africa 28.1%,0.001782367,Workers,Women in the sectoral labour force,4
 Manganese,0.177551209,South Africa,0.281081081,South Africa 28.1%,0.001782367,Workers,Workers affected by natural disasters,1
-Manganese,0.177551209,RoW,0.178378378,RoW 17.8%,0.031671297,,,3.366893797
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.14718E-05,Local Community,Drinking water coverage,1
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.14718E-05,Local Community,International Migrant Stock,2
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.14718E-05,Local Community,Presence of indigenous population,3
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.14718E-05,Local Community,Sanitation coverage,5
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,Embodied value added total,5
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,Global Peace Index,2
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,"Health expenditure, total",3
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,"Illiteracy rate, total",1
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,Life expectancy at birth,1
-Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76479E-05,Society,Public expenditure on education,2
+Manganese,0.177551209,Rest of the world,0.178378378,Rest of the world 17.8%,0.031671297,,,3.366893797
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.15E-05,Local Community,Drinking water coverage,1
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.15E-05,Local Community,International Migrant Stock,2
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.15E-05,Local Community,Presence of indigenous population,3
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,4.15E-05,Local Community,Sanitation coverage,5
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,Embodied value added total,5
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,Global Peace Index,2
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,"Health expenditure, total",3
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,"Illiteracy rate, total",1
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,Life expectancy at birth,1
+Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.76E-05,Society,Public expenditure on education,2
 Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,0.000165887,Value Chain Actors,Public sector corruption,5
 Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.37E-05,Workers,"Children in employment, total",3
 Lithium,0.011216116,Argentina,0.059160305,Argentina 5.9%,2.37E-05,Workers,Evidence of violations of laws and employment regulations,4
@@ -409,29 +409,29 @@ Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,0.000115943,Society,"Illiterac
 Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,0.000115943,Society,Life expectancy at birth,0
 Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,0.000115943,Society,Public expenditure on education,2
 Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,0.000695656,Value Chain Actors,Public sector corruption,3
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,"Children in employment, total",2
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,Evidence of violations of laws and employment regulations,3
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,"Sector average wage, per month",4
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,Trade union density,5
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,Weekly hours of work per employee,3
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,Women in the sectoral labour force,2
-Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.93794E-05,Workers,Workers affected by natural disasters,4
-Lithium,0.011216116,China,0.133587786,China 13.4%,9.3646E-05,Local Community,Drinking water coverage,2
-Lithium,0.011216116,China,0.133587786,China 13.4%,9.3646E-05,Local Community,International Migrant Stock,1
-Lithium,0.011216116,China,0.133587786,China 13.4%,9.3646E-05,Local Community,Presence of indigenous population,3
-Lithium,0.011216116,China,0.133587786,China 13.4%,9.3646E-05,Local Community,Sanitation coverage,4
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,Embodied value added total,2
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,Global Peace Index,3
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,"Health expenditure, total",4
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,"Illiteracy rate, total",3
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,Life expectancy at birth,1
-Lithium,0.011216116,China,0.133587786,China 13.4%,6.24307E-05,Society,Public expenditure on education,2
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,"Children in employment, total",2
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,Evidence of violations of laws and employment regulations,3
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,"Sector average wage, per month",4
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,Trade union density,5
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,Weekly hours of work per employee,3
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,Women in the sectoral labour force,2
+Lithium,0.011216116,Chile,0.248091603,Chile 24.8%,9.94E-05,Workers,Workers affected by natural disasters,4
+Lithium,0.011216116,China,0.133587786,China 13.4%,9.36E-05,Local Community,Drinking water coverage,2
+Lithium,0.011216116,China,0.133587786,China 13.4%,9.36E-05,Local Community,International Migrant Stock,1
+Lithium,0.011216116,China,0.133587786,China 13.4%,9.36E-05,Local Community,Presence of indigenous population,3
+Lithium,0.011216116,China,0.133587786,China 13.4%,9.36E-05,Local Community,Sanitation coverage,4
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,Embodied value added total,2
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,Global Peace Index,3
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,"Health expenditure, total",4
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,"Illiteracy rate, total",3
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,Life expectancy at birth,1
+Lithium,0.011216116,China,0.133587786,China 13.4%,6.24E-05,Society,Public expenditure on education,2
 Lithium,0.011216116,China,0.133587786,China 13.4%,0.000374584,Value Chain Actors,Public sector corruption,5
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,"Children in employment, total",4
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,Evidence of violations of laws and employment regulations,3
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,"Sector average wage, per month",1
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,Trade union density,3
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,Weekly hours of work per employee,3
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,Women in the sectoral labour force,1
-Lithium,0.011216116,China,0.133587786,China 13.4%,5.3512E-05,Workers,Workers affected by natural disasters,4
-Lithium,0.011216116,RoW,0.034351145,RoW 3.4%,0.000385286,,,2.720608649
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,"Children in employment, total",4
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,Evidence of violations of laws and employment regulations,3
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,"Sector average wage, per month",1
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,Trade union density,3
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,Weekly hours of work per employee,3
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,Women in the sectoral labour force,1
+Lithium,0.011216116,China,0.133587786,China 13.4%,5.35E-05,Workers,Workers affected by natural disasters,4
+Lithium,0.011216116,Rest of the world,0.034351145,Rest of the world 3.4%,0.000385286,,,2.720608649
