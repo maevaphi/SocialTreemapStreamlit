@@ -118,6 +118,8 @@ with st.expander("What are the colors for?"):
 
 with st.expander("How were the indicators selected?"):    
     st.write("PSILCA database v3 has 74 qualitative and quantitative indicators. Indicators for which there is no data for at least one sector assessed are removed. A total of 18 indicators are selected: 4 for the local community, 6 for the society, 1 for the value chain actors and 7 for the workers.")
+    indicators = pd.read_csv("Indicators.csv")
+    st.table(indicators)
 
 with st.expander("References"):    
     st.write("U.S. Geological Survey, 2022. Mineral Commodity Summaries 2022. https://doi.org/10.3133/mcs2022")
