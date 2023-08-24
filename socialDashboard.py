@@ -49,7 +49,7 @@ with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"):
 with st.expander("NMC811 (LiNi0.8Mn0.1Co0.1O2)"): 
     treemap(NMC811,"NMC811")
 
-with st.expander("LNMO (u'Li\u2082NiMn\u2083O\u2088')"):
+with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088"):
     treemap(LNMO,"LNMO")
 
 st.subheader('More info')
