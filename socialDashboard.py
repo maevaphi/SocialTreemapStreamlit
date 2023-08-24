@@ -113,7 +113,7 @@ with st.expander("What the area size shows for the stakeholders?"):
 
 with st.expander("What are the colors for?"):    
     st.write("The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).")
-    legend = Image.open("legend.png")
+    legend = Image.open("Legend.png")
     st.image(legend)
 
 with st.expander("References"):    
