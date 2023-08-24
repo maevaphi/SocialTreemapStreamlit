@@ -104,9 +104,9 @@ if option == "all":
 
 
 with st.expander("What the area size shows for the material and the country?"):
-    st.write("The size of the areas indicates the material content and the country s market share for mining.")
+    st.write("The size of the areas indicates the material content and the country's market share for mining.")
     st.write("The material content of each assessed chemistry is evaluated in kg/kg active material.")
-    st.write("The market share of the mining countries of 5 raw materials (cobalt, lithium, manganese and nickel) is gathered from the latest US Geological Survey.")
+    st.write("The market share of the mining countries of 4 raw materials (cobalt, lithium, manganese and nickel) is gathered from the latest US Geological Survey.")
 
 with st.expander("What the area size shows for the stakeholders?"):
     st.write("Each stakeholder is allocated to the same area, even though the number of indicators is different.")
@@ -135,5 +135,6 @@ logo = Image.open("AM4BAT - Brand PNG.png")
 st.image(logo, width=200)
 
 'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
+'https://am4batproject.eu/'
 flag = Image.open("EU.jpg")
 st.image(flag, width=100)
