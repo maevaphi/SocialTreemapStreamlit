@@ -17,6 +17,7 @@ st.image(img)
 'Maeva LAVIGNE PHILIPPOT, Joeri VAN MIERLO, Maarten MESSAGIE'
 'VUB, Belgium'
 
+st.divider()
 
 df = pd.DataFrame({
     'first column': ['','NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
@@ -124,6 +125,8 @@ with st.expander("How were the indicators selected?"):
 with st.expander("References"):    
     st.write("U.S. Geological Survey, 2022. Mineral Commodity Summaries 2022. https://doi.org/10.3133/mcs2022")
     st.write("Maister, K., Di Noi, C., Ciroth, A., Srocka, M., 2020. PSILCA v.3")
+
+st.divider()
 
 'maeva.philippot@vub.be'
 
