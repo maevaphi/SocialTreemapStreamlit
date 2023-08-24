@@ -17,8 +17,8 @@ from PIL import Image
 
 st.title("Social impacts of mining raw materials for battery active materials")
 
-#img = Image.open("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/LCMtitle.jpg")
-#st.image(img)
+img = Image.open("LCMtitle.jpg")
+st.image(img)
 
 'Maeva LAVIGNE PHILIPPOT, Joeri VAN MIERLO, Maarten MESSAGIE'
 'VUB, Belgium'
@@ -123,9 +123,9 @@ if option == "all":
 
 st.divider()
 
-#logo = Image.open("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/AM4BAT - Brand PNG.png")
-#st.image(logo, width=200)
+logo = Image.open("AM4BAT - Brand PNG.png")
+st.image(logo, width=200)
 
 'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
-#flag = Image.open("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/EU.jpg")
-#st.image(flag, width=100)
+flag = Image.open("EU.jpg")
+st.image(flag, width=100)
