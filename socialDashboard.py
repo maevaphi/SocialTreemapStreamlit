@@ -35,9 +35,9 @@ option = st.selectbox(
 
 'You selected: ', option
 
-NMC622 = pd.read_csv("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/NMC622Treemap.csv")
-NMC811 = pd.read_csv("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/NMC811Treemap.csv")
-LNMO = pd.read_csv("C:/Users/mphilip1_admin/OneDrive - Vrije Universiteit Brussel/thèse/python/LNMOTreemap.csv")
+NMC622 = pd.read_csv("NMC622Treemap.csv")
+NMC811 = pd.read_csv("NMC811Treemap.csv")
+LNMO = pd.read_csv("LNMOTreemap.csv")
 
 
 
