@@ -25,10 +25,6 @@ NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
 
-st.write(u'H\u2082O\u2082')
-st.write('\N{GREEK CAPITAL LETTER THETA}r\N{SUBSCRIPT TWO}')
-st.write(u'Li\u2082NiMn\u2083O\u2088')
-
 with st.expander("Introduction"):
     st.write("Current trends in the cathode active material of batteries for electric vehicles point towards reducing the amount of cobalt. In fact, cobalt is a critical raw material, which supply chain raises concerns, in particular regarding human rights and child labor during mining in the Democratic Republic of Congo (DRC). Current state-of-the-art (SoA) batteries have lithium nickel manganese cobalt oxide (NMC622) as cathode active material. AM4BAT project is developing two high-performance batteries for electric vehicles, one 3D printed all solid-state battery with single crystal NMC811 and one with lithium nickel manganese oxide (LNMO) as cathode active material.")
     st.write("This study assesses whether this change in cathode active material influences the social impacts.")
@@ -43,7 +39,7 @@ def treemap(df, name):
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
 
-with st.expander("NMC622 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
+with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
     treemap(NMC622,"NMC622")
     
 with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
