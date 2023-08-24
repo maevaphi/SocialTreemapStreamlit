@@ -103,13 +103,13 @@ if option == "all":
     st.plotly_chart(fig, use_container_width=True)
 
 
-'The size of the areas indicates the material amount and the country s market share.'
-'Each stakeholder is allocated to the same area, even though the number of indicators is different.'
-'The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).'
-
-with st.expander("See explanation"):
+with st.expander("What the area size shows for the material and the country?"):
     st.write("The size of the areas indicates the material amount and the country s market share.")
+
+with st.expander("What the area size shows for the stakeholders?"):
     st.write("Each stakeholder is allocated to the same area, even though the number of indicators is different.")
+
+with st.expander("What are the colors for?"):    
     st.write("The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).")
 
 'maeva.philippot@vub.be'
