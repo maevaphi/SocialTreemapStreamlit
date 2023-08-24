@@ -25,22 +25,23 @@ NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
 
-
 with st.expander("Introduction"):
     st.write("Current trends in the cathode active material of batteries for electric vehicles point towards reducing the amount of cobalt. In fact, cobalt is a critical raw material, which supply chain raises concerns, in particular regarding human rights and child labor during mining in the Democratic Republic of Congo (DRC). Current state-of-the-art (SoA) batteries have lithium nickel manganese cobalt oxide (NMC622) as cathode active material. AM4BAT project is developing two high-performance batteries for electric vehicles, one 3D printed all solid-state battery with single crystal NMC811 and one with lithium nickel manganese oxide (LNMO) as cathode active material.")
+    st.write("This study assesses whether this change in cathode active material influences the social impacts.")
 
-with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
-    fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
+def treemap(df, name):
+    """Returns the treemap for a cathode active material"""
+    fig=px.treemap(df,path=[px.Constant(name),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
-    #fig.update_traces(root_color="Lightgrey")
-    #fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    #fig.update_traces(visible=True, selector=dict(type='treemap'))
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    #fig.update_layout(legend = dict (title=None, orientation="h"))
     st.plotly_chart(fig, use_container_width=True)
+
+with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
+    treemap(NMC622,"NMC622")
+    
 
 with st.expander("NMC811 (LiNi0.8Mn0.1Co0.1O2)"): 
     fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
@@ -81,8 +82,8 @@ with st.expander("What the area size shows for the material and the country?"):
 with st.expander("What the area size shows for the stakeholders?"):
     st.write("Each stakeholder is allocated to the same area, even though the number of indicators is different.")
 
-with st.expander("How were the indicators selected?"):    
-    st.write("PSILCA database v3 has 74 qualitative and quantitative indicators. Indicators for which there is no data for at least one sector assessed are removed. A total of 18 indicators are selected: 4 for the local community, 6 for the society, 1 for the value chain actors and 7 for the workers.")
+with st.expander("How are the indicators selected?"):    
+    st.write("PSILCA database v3 has 74 qualitative and quantitative indicators. Indicators for which there is no data for at least one sector assessed are removed, as well as environmental indicators. A total of 18 indicators are selected: 4 for the local community, 6 for the society, 1 for the value chain actors and 7 for the workers.")
     indicators = pd.read_csv("Indicators.csv")
     st.table(indicators)
 
