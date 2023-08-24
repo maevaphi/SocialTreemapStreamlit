@@ -19,22 +19,24 @@ st.image(img)
 
 st.divider()
 
-df = pd.DataFrame({
-    'first column': ['','NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
-    'second column': [0,1, 2, 3, 4]
-    })
+'You can see below the social impacts of 3 battery cthode active materials'
 
-option = st.selectbox(
-    'Which cathode active material do you want to visualize?',
-     df['first column'])
+#df = pd.DataFrame({
+""    'first column': ['','NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
+#    'second column': [0,1, 2, 3, 4]
+#    })
 
-'You selected: ', option
+#option = st.selectbox(
+#    'Which cathode active material do you want to visualize?',
+#     df['first column'])
+
+#'You selected: ', option
 
 NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
 
-if option == "NMC622 (LiNi0.8Mn0.1Co0.1O2)":
+with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
     fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -46,7 +48,8 @@ if option == "NMC622 (LiNi0.8Mn0.1Co0.1O2)":
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     #fig.update_layout(legend = dict (title=None, orientation="h"))
     st.plotly_chart(fig, use_container_width=True)
-if option == "NMC811 (LiNi0.8Mn0.1Co0.1O2)":
+
+with st.expander("NMC811 (LiNi0.8Mn0.1Co0.1O2)"): 
     fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -57,41 +60,8 @@ if option == "NMC811 (LiNi0.8Mn0.1Co0.1O2)":
     fig.update_traces(visible=True, selector=dict(type='treemap'))
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
-if option == "LNMO (Li2NiMn3O8)":
-    fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
-               values='Area',
-               color='Value',
-               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"})
-    fig.update_traces(root_color="Lightgrey")
-    fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    fig.update_traces(visible=True, selector=dict(type='treemap'))
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True)
-if option == "all":
-    'NMC622'
-    fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
-               values='Area',
-               color='Value',
-               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"})
-    fig.update_traces(root_color="Lightgrey")
-    fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    fig.update_traces(visible=True, selector=dict(type='treemap'))
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True)
-    'NMC811'
-    fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
-               values='Area',
-               color='Value',
-               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"})
-    fig.update_traces(root_color="Lightgrey")
-    fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    fig.update_traces(visible=True, selector=dict(type='treemap'))
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True)
-    'LNMO'
+
+with st.expander("LNMO (Li2NiMn3O8)"):
     fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -103,6 +73,12 @@ if option == "all":
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
 
+st.subheader('More info')
+
+with st.expander("What are the colors for?"):    
+    st.write("The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).")
+    legend = Image.open("Legend.PNG")
+    st.image(legend)
 
 with st.expander("What the area size shows for the material and the country?"):
     st.write("The size of the areas indicates the material content and the country's market share for mining.")
@@ -111,11 +87,6 @@ with st.expander("What the area size shows for the material and the country?"):
 
 with st.expander("What the area size shows for the stakeholders?"):
     st.write("Each stakeholder is allocated to the same area, even though the number of indicators is different.")
-
-with st.expander("What are the colors for?"):    
-    st.write("The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).")
-    legend = Image.open("Legend.PNG")
-    st.image(legend)
 
 with st.expander("How were the indicators selected?"):    
     st.write("PSILCA database v3 has 74 qualitative and quantitative indicators. Indicators for which there is no data for at least one sector assessed are removed. A total of 18 indicators are selected: 4 for the local community, 6 for the society, 1 for the value chain actors and 7 for the workers.")
