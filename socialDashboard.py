@@ -43,10 +43,10 @@ def treemap(df, name):
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
 
-with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
+with st.expander("NMC622 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
     treemap(NMC622,"NMC622")
     
-with st.expander("NMC811 (LiNi0.8Mn0.1Co0.1O2)"): 
+with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
     treemap(NMC811,"NMC811")
 
 with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088"):
