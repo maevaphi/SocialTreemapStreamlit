@@ -19,22 +19,15 @@ st.image(img)
 
 st.divider()
 
-'You can see below the social impacts of 3 battery cthode active materials'
-
-#df = pd.DataFrame({
-#""    'first column': ['','NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
-#    'second column': [0,1, 2, 3, 4]
-#    })
-
-#option = st.selectbox(
-#    'Which cathode active material do you want to visualize?',
-#     df['first column'])
-
-#'You selected: ', option
+'You can see below the social impacts of 3 battery cathode active materials'
 
 NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
+
+
+with st.expander("Introduction"):
+    st.write("Current trends in the cathode active material of batteries for electric vehicles point towards reducing the amount of cobalt. In fact, cobalt is a critical raw material, which supply chain raises concerns, in particular regarding human rights and child labor during mining in the Democratic Republic of Congo (DRC). Current state-of-the-art (SoA) batteries have lithium nickel manganese cobalt oxide (NMC622) as cathode active material. AM4BAT project is developing two high-performance batteries for electric vehicles, one 3D printed all solid-state battery with single crystal NMC811 and one with lithium nickel manganese oxide (LNMO) as cathode active material.")
 
 with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
     fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
