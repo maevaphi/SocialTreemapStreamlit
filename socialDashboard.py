@@ -105,7 +105,7 @@ if option == "all":
 
 with st.expander("What the area size shows for the material and the country?"):
     st.write("The size of the areas indicates the material content and the country s market share for mining.")
-    st.write("The material content")
+    st.write("The material content of each assessed chemistry is evaluated in kg/kg active material.")
     st.write("The market share of the mining countries of 5 raw materials (cobalt, lithium, manganese and nickel) is gathered from the latest US Geological Survey.")
 
 with st.expander("What the area size shows for the stakeholders?"):
