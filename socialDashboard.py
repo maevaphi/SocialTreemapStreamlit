@@ -6,7 +6,7 @@ Created on Thu Jul 25  2023
 """
 import streamlit as st
 import pandas as pd
-#import plotly.express as px
+import plotly.express as px
 from PIL import Image
 #import numpy as np
 #from plotly.subplots import make_subplots
@@ -39,7 +39,74 @@ NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
 
-
+if option == "NMC622":
+    fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    #fig.update_traces(root_color="Lightgrey")
+    #fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    #fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    #fig.update_layout(legend = dict (title=None, orientation="h"))
+    st.plotly_chart(fig, use_container_width=True)
+if option == "NMC811":
+    fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_traces(root_color="Lightgrey")
+    fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
+if option == "LNMO":
+    fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_traces(root_color="Lightgrey")
+    fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
+if option == "all":
+    'NMC622'
+    fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_traces(root_color="Lightgrey")
+    fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
+    'NMC811'
+    fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_traces(root_color="Lightgrey")
+    fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
+    'LNMO'
+    fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
+               values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_traces(root_color="Lightgrey")
+    fig.update_traces(name="test legend", selector=dict(type='treemap'))
+    fig.update_traces(visible=True, selector=dict(type='treemap'))
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
 
 'Legend:'
 'NMCxyz= LiNixCoyMnzO2'
