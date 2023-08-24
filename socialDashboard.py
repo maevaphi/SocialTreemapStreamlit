@@ -107,10 +107,14 @@ if option == "all":
 'Each stakeholder is allocated to the same area, even though the number of indicators is different.'
 'The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).'
 
+with st.expander("See explanation"):
+    st.write(The size of the areas indicates the material amount and the country s market share.)
+    st.write(Each stakeholder is allocated to the same area, even though the number of indicators is different.)
+    st.write(The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).)
+
 'maeva.philippot@vub.be'
 
 'www.linkedin.com/in/maeva-lavigne-philippot'
-'https://www.linkedin.com/in/maeva-lavigne-philippot/'
 
 st.divider()
 
