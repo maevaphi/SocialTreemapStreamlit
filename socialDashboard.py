@@ -8,14 +8,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from PIL import Image
-#import numpy as np
-#from plotly.subplots import make_subplots
-#import plotly.graph_objects as go
-#from wordcloud import ordCloud, STOPWORDS
-#import matplotlib.pyplot as plt
-#import seaborn as sns
 
-st.title("Social impacts of mining raw materials for battery active materials")
+#st.title("Social impacts of mining raw materials for battery active materials")
 
 img = Image.open("LCMtitle.jpg")
 st.image(img)
@@ -25,7 +19,7 @@ st.image(img)
 
 
 df = pd.DataFrame({
-    'first column': ['NMC622', 'NMC811', 'LNMO', 'all'],
+    'first column': ['NMC622 (LiNi0.8Mn0.1Co0.1O2)', 'NMC811 (LiNi0.8Mn0.1Co0.1O2)', 'LNMO (Li2NiMn3O8)', 'all'],
     'second column': [1, 2, 3, 4]
     })
 
@@ -39,7 +33,7 @@ NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
 LNMO = pd.read_csv("LNMOTreemap.csv")
 
-if option == "NMC622":
+if option == "NMC622 (LiNi0.8Mn0.1Co0.1O2)":
     fig=px.treemap(NMC622,path=[px.Constant("NMC622"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -51,7 +45,7 @@ if option == "NMC622":
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     #fig.update_layout(legend = dict (title=None, orientation="h"))
     st.plotly_chart(fig, use_container_width=True)
-if option == "NMC811":
+if option == "NMC811 (LiNi0.8Mn0.1Co0.1O2)":
     fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -62,7 +56,7 @@ if option == "NMC811":
     fig.update_traces(visible=True, selector=dict(type='treemap'))
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
-if option == "LNMO":
+if option == "LNMO (Li2NiMn3O8)":
     fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
                values='Area',
                color='Value',
@@ -108,14 +102,12 @@ if option == "all":
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
 
-'Legend:'
-'NMCxyz= LiNixCoyMnzO2'
-'LNMO= LiNi0.5Mn1.5O4'
 
-'The size of the areas indicates the material amount and the country s market share. Each stakeholder is allocated to the same area, even though the number of indicators is different. The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).'
+'The size of the areas indicates the material amount and the country s market share.'
+'Each stakeholder is allocated to the same area, even though the number of indicators is different.'
+'The indicators in PSILCA database are affected 6 level of risks from no risk (blue) to very high risk (red).'
 
-
-#email
+'maeva.philippot@vub.be'
 
 
 
