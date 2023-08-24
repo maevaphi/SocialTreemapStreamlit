@@ -42,30 +42,11 @@ def treemap(df, name):
 with st.expander("NMC622 (LiNi0.8Mn0.1Co0.1O2)"): 
     treemap(NMC622,"NMC622")
     
-
 with st.expander("NMC811 (LiNi0.8Mn0.1Co0.1O2)"): 
-    fig=px.treemap(NMC811,path=[px.Constant("NMC811"),'Material','Label','Stakeholder','Indicator'],
-               values='Area',
-               color='Value',
-               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"})
-    fig.update_traces(root_color="Lightgrey")
-    fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    fig.update_traces(visible=True, selector=dict(type='treemap'))
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True)
+    treemap(NMC811,"NMC811")
 
 with st.expander("LNMO (Li2NiMn3O8)"):
-    fig=px.treemap(LNMO,path=[px.Constant("LNMO"),'Material','Label','Stakeholder','Indicator'],
-               values='Area',
-               color='Value',
-               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"})
-    fig.update_traces(root_color="Lightgrey")
-    fig.update_traces(name="test legend", selector=dict(type='treemap'))
-    fig.update_traces(visible=True, selector=dict(type='treemap'))
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True)
+    treemap(LNMO,"LNMO")
 
 st.subheader('More info')
 
