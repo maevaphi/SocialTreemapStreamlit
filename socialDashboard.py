@@ -109,9 +109,8 @@ if option == "all":
 
 'maeva.philippot@vub.be'
 
-
-
-#linkedin
+'www.linkedin.com/in/maeva-lavigne-philippot'
+'https://www.linkedin.com/in/maeva-lavigne-philippot/'
 
 st.divider()
 
