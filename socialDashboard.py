@@ -19,7 +19,7 @@ st.image(img)
 
 st.divider()
 
-st.subheader("You can see below the social impacts of 3 battery cathode active materials")
+st.subheader("You can see below the social impacts of the mining of raw materials for 3 battery cathode active materials")
 
 NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
@@ -46,7 +46,8 @@ with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
 
 st.subheader('More info')
 
-with st.expander("How to navigate"):
+nav = st.button("How to navigate")
+if nav:
     st.write("Click on one sector to zoom in/out, which also displays a pathbar in the upper-left corner of the treemap. To zoom out you can use the path bar as well.")
 
 with st.expander("Context"):
