@@ -46,6 +46,9 @@ with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
 
 st.subheader('More info')
 
+with st.expander("How to navigate")
+    st.write("Click on one sector to zoom in/out, which also displays a pathbar in the upper-left corner of the treemap. To zoom out you can use the path bar as well.")
+
 with st.expander("Context"):
     st.write("Current trends in the cathode active material of batteries for electric vehicles point towards reducing the amount of cobalt. In fact, cobalt is a critical raw material, which supply chain raises concerns, in particular regarding human rights and child labor during mining in the Democratic Republic of Congo (DRC). Current state-of-the-art (SoA) batteries have lithium nickel manganese cobalt oxide (NMC622) as cathode active material. AM4BAT project is developing two high-performance batteries for electric vehicles, one 3D printed all solid-state battery with single crystal NMC811 and one with lithium nickel manganese oxide (LNMO) as cathode active material.")
     st.write("This study assesses whether this change in cathode active material influences the social impacts.")
