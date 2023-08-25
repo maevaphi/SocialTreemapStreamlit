@@ -46,7 +46,7 @@ with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
 
 st.subheader('More info')
 
-with st.expander("How to navigate")
+with st.expander("How to navigate"):
     st.write("Click on one sector to zoom in/out, which also displays a pathbar in the upper-left corner of the treemap. To zoom out you can use the path bar as well.")
 
 with st.expander("Context"):
