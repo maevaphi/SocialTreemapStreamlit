@@ -19,7 +19,7 @@ st.image(img)
 
 st.divider()
 
-st.subheader("You can see below the social impacts of the mining of raw materials for 3 battery cathode active materials")
+st.subheader(:blue["You can see below the social impacts of the mining of raw materials for 3 battery cathode active materials"])
 
 NMC622 = pd.read_csv("NMC622Treemap.csv")
 NMC811 = pd.read_csv("NMC811Treemap.csv")
