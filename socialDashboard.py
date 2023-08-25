@@ -46,7 +46,7 @@ with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
 
 st.subheader(':blue[More info]')
 
-with st.expander("How to navigate")
+with st.expander("How to navigate"):
     st.write("Click on one treemap sector to zoom in/out.")
 
 with st.expander("Context"):
