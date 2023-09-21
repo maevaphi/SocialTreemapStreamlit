@@ -1,0 +1,128 @@
+Country,Mining share,Label,Area,Stakeholder,Indicator,Value,Area if each stakeholder has the same weight,Subcategory
+Australia,4%,Australia 4.1%,0.002261905,Local Community,Drinking water coverage,1,0.002544643,Safe and healthy living conditions
+Australia,4%,Australia 4.1%,0.002261905,Local Community,International Migrant Stock,5,0.002544643,Migration
+Australia,4%,Australia 4.1%,0.002261905,Local Community,Presence of indigenous population,3,0.002544643,Respect of indigenous rights
+Australia,4%,Australia 4.1%,0.002261905,Local Community,Sanitation coverage,3,0.002544643,Safe and healthy living conditions
+Australia,4%,Australia 4.1%,0.002261905,Society,Embodied value added total,5,0.001696429,Contribution to economic development
+Australia,4%,Australia 4.1%,0.002261905,Society,Global Peace Index,1,0.001696429,Health and Safety
+Australia,4%,Australia 4.1%,0.002261905,Society,"Health expenditure, total",3,0.001696429,Health and Safety
+Australia,4%,Australia 4.1%,0.002261905,Society,"Illiteracy rate, total",3,0.001696429,Contribution to economic development
+Australia,4%,Australia 4.1%,0.002261905,Society,Life expectancy at birth,0,0.001696429,Health and Safety
+Australia,4%,Australia 4.1%,0.002261905,Society,Public expenditure on education,2,0.001696429,Contribution to economic development
+Australia,4%,Australia 4.1%,0.002261905,Value Chain Actors,Public sector corruption,2,0.010178571,Corruption
+Australia,4%,Australia 4.1%,0.002261905,Workers,"Children in employment, total",2,0.001454082,Child labour
+Australia,4%,Australia 4.1%,0.002261905,Workers,Evidence of violations of laws and employment regulations,3,0.001454082,"Social benefits, legal issues"
+Australia,4%,Australia 4.1%,0.002261905,Workers,"Sector average wage, per month",1,0.001454082,Fair Salary
+Australia,4%,Australia 4.1%,0.002261905,Workers,Trade union density,5,0.001454082,Freedom of association and collective bargaining
+Australia,4%,Australia 4.1%,0.002261905,Workers,Weekly hours of work per employee,3,0.001454082,Working time
+Australia,4%,Australia 4.1%,0.002261905,Workers,Women in the sectoral labour force,4,0.001454082,Discrimination
+Australia,4%,Australia 4.1%,0.002261905,Workers,Workers affected by natural disasters,1,0.001454082,Health and Safety
+Canada,2%,Canada 2.3%,0.001269841,Local Community,Drinking water coverage,1,0.001428571,Safe and healthy living conditions
+Canada,2%,Canada 2.3%,0.001269841,Local Community,International Migrant Stock,5,0.001428571,Migration
+Canada,2%,Canada 2.3%,0.001269841,Local Community,Presence of indigenous population,3,0.001428571,Respect of indigenous rights
+Canada,2%,Canada 2.3%,0.001269841,Local Community,Sanitation coverage,3,0.001428571,Safe and healthy living conditions
+Canada,2%,Canada 2.3%,0.001269841,Society,Embodied value added total,1,0.000952381,Contribution to economic development
+Canada,2%,Canada 2.3%,0.001269841,Society,Global Peace Index,1,0.000952381,Health and Safety
+Canada,2%,Canada 2.3%,0.001269841,Society,"Health expenditure, total",2,0.000952381,Health and Safety
+Canada,2%,Canada 2.3%,0.001269841,Society,"Illiteracy rate, total",1,0.000952381,Contribution to economic development
+Canada,2%,Canada 2.3%,0.001269841,Society,Life expectancy at birth,0,0.000952381,Health and Safety
+Canada,2%,Canada 2.3%,0.001269841,Society,Public expenditure on education,2,0.000952381,Contribution to economic development
+Canada,2%,Canada 2.3%,0.001269841,Value Chain Actors,Public sector corruption,2,0.005714286,Corruption
+Canada,2%,Canada 2.3%,0.001269841,Workers,"Children in employment, total",2,0.000816327,Child labour
+Canada,2%,Canada 2.3%,0.001269841,Workers,Evidence of violations of laws and employment regulations,3,0.000816327,"Social benefits, legal issues"
+Canada,2%,Canada 2.3%,0.001269841,Workers,"Sector average wage, per month",3,0.000816327,Fair Salary
+Canada,2%,Canada 2.3%,0.001269841,Workers,Trade union density,4,0.000816327,Freedom of association and collective bargaining
+Canada,2%,Canada 2.3%,0.001269841,Workers,Weekly hours of work per employee,3,0.000816327,Working time
+Canada,2%,Canada 2.3%,0.001269841,Workers,Women in the sectoral labour force,5,0.000816327,Discrimination
+Canada,2%,Canada 2.3%,0.001269841,Workers,Workers affected by natural disasters,1,0.000816327,Health and Safety
+Cuba,3%,Cuba 2.6%,0.001428571,Local Community,Drinking water coverage,2,0.001607143,Safe and healthy living conditions
+Cuba,3%,Cuba 2.6%,0.001428571,Local Community,International Migrant Stock,1,0.001607143,Migration
+Cuba,3%,Cuba 2.6%,0.001428571,Local Community,Presence of indigenous population,3,0.001607143,Respect of indigenous rights
+Cuba,3%,Cuba 2.6%,0.001428571,Local Community,Sanitation coverage,5,0.001607143,Safe and healthy living conditions
+Cuba,3%,Cuba 2.6%,0.001428571,Society,Embodied value added total,4,0.001071429,Contribution to economic development
+Cuba,3%,Cuba 2.6%,0.001428571,Society,Global Peace Index,3,0.001071429,Health and Safety
+Cuba,3%,Cuba 2.6%,0.001428571,Society,"Health expenditure, total",2,0.001071429,Health and Safety
+Cuba,3%,Cuba 2.6%,0.001428571,Society,"Illiteracy rate, total",1,0.001071429,Contribution to economic development
+Cuba,3%,Cuba 2.6%,0.001428571,Society,Life expectancy at birth,1,0.001071429,Health and Safety
+Cuba,3%,Cuba 2.6%,0.001428571,Society,Public expenditure on education,2,0.001071429,Contribution to economic development
+Cuba,3%,Cuba 2.6%,0.001428571,Value Chain Actors,Public sector corruption,5,0.006428571,Corruption
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,"Children in employment, total",4,0.000918367,Child labour
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,Evidence of violations of laws and employment regulations,4,0.000918367,"Social benefits, legal issues"
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,"Sector average wage, per month",3,0.000918367,Fair Salary
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,Trade union density,5,0.000918367,Freedom of association and collective bargaining
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,Weekly hours of work per employee,2,0.000918367,Working time
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,Women in the sectoral labour force,3,0.000918367,Discrimination
+Cuba,3%,Cuba 2.6%,0.001428571,Workers,Workers affected by natural disasters,2,0.000918367,Health and Safety
+DRC,68%,DRC 67.9%,0.037698413,Local Community,Drinking water coverage,4,0.042410714,Safe and healthy living conditions
+DRC,68%,DRC 67.9%,0.037698413,Local Community,International Migrant Stock,1,0.042410714,Migration
+DRC,68%,DRC 67.9%,0.037698413,Local Community,Presence of indigenous population,3,0.042410714,Respect of indigenous rights
+DRC,68%,DRC 67.9%,0.037698413,Local Community,Sanitation coverage,5,0.042410714,Safe and healthy living conditions
+DRC,68%,DRC 67.9%,0.037698413,Society,Embodied value added total,3,0.02827381,Contribution to economic development
+DRC,68%,DRC 67.9%,0.037698413,Society,Global Peace Index,5,0.02827381,Health and Safety
+DRC,68%,DRC 67.9%,0.037698413,Society,"Health expenditure, total",4,0.02827381,Health and Safety
+DRC,68%,DRC 67.9%,0.037698413,Society,"Illiteracy rate, total",5,0.02827381,Contribution to economic development
+DRC,68%,DRC 67.9%,0.037698413,Society,Life expectancy at birth,5,0.02827381,Health and Safety
+DRC,68%,DRC 67.9%,0.037698413,Society,Public expenditure on education,4,0.02827381,Contribution to economic development
+DRC,68%,DRC 67.9%,0.037698413,Value Chain Actors,Public sector corruption,5,0.169642857,Corruption
+DRC,68%,DRC 67.9%,0.037698413,Workers,"Children in employment, total",5,0.024234694,Child labour
+DRC,68%,DRC 67.9%,0.037698413,Workers,Evidence of violations of laws and employment regulations,4,0.024234694,"Social benefits, legal issues"
+DRC,68%,DRC 67.9%,0.037698413,Workers,"Sector average wage, per month",3,0.024234694,Fair Salary
+DRC,68%,DRC 67.9%,0.037698413,Workers,Trade union density,5,0.024234694,Freedom of association and collective bargaining
+DRC,68%,DRC 67.9%,0.037698413,Workers,Weekly hours of work per employee,3,0.024234694,Working time
+DRC,68%,DRC 67.9%,0.037698413,Workers,Women in the sectoral labour force,1,0.024234694,Discrimination
+DRC,68%,DRC 67.9%,0.037698413,Workers,Workers affected by natural disasters,1,0.024234694,Health and Safety
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Local Community,Drinking water coverage,4,0.00125,Safe and healthy living conditions
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Local Community,International Migrant Stock,1,0.00125,Migration
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Local Community,Presence of indigenous population,3,0.00125,Respect of indigenous rights
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Local Community,Sanitation coverage,4,0.00125,Safe and healthy living conditions
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,Embodied value added total,2,0.000833333,Contribution to economic development
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,Global Peace Index,3,0.000833333,Health and Safety
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,"Health expenditure, total",5,0.000833333,Health and Safety
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,"Illiteracy rate, total",4,0.000833333,Contribution to economic development
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,Life expectancy at birth,4,0.000833333,Health and Safety
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Society,Public expenditure on education,2,0.000833333,Contribution to economic development
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Value Chain Actors,Public sector corruption,5,0.005,Corruption
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,"Children in employment, total",4,0.000714286,Child labour
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,Evidence of violations of laws and employment regulations,4,0.000714286,"Social benefits, legal issues"
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,"Sector average wage, per month",2,0.000714286,Fair Salary
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,Trade union density,5,0.000714286,Freedom of association and collective bargaining
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,Weekly hours of work per employee,4,0.000714286,Working time
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,Women in the sectoral labour force,1,0.000714286,Discrimination
+Papua New Guinea,2%,Papua New Guinea 2%,0.001111111,Workers,Workers affected by natural disasters,3,0.000714286,Health and Safety
+Philippines,3%,Philippines 3.4%,0.001865079,Local Community,Drinking water coverage,2,0.002098214,Safe and healthy living conditions
+Philippines,3%,Philippines 3.4%,0.001865079,Local Community,International Migrant Stock,1,0.002098214,Migration
+Philippines,3%,Philippines 3.4%,0.001865079,Local Community,Presence of indigenous population,3,0.002098214,Respect of indigenous rights
+Philippines,3%,Philippines 3.4%,0.001865079,Local Community,Sanitation coverage,4,0.002098214,Safe and healthy living conditions
+Philippines,3%,Philippines 3.4%,0.001865079,Society,Embodied value added total,1,0.00139881,Contribution to economic development
+Philippines,3%,Philippines 3.4%,0.001865079,Society,Global Peace Index,4,0.00139881,Health and Safety
+Philippines,3%,Philippines 3.4%,0.001865079,Society,"Health expenditure, total",4,0.00139881,Health and Safety
+Philippines,3%,Philippines 3.4%,0.001865079,Society,"Illiteracy rate, total",2,0.00139881,Contribution to economic development
+Philippines,3%,Philippines 3.4%,0.001865079,Society,Life expectancy at birth,3,0.00139881,Health and Safety
+Philippines,3%,Philippines 3.4%,0.001865079,Society,Public expenditure on education,3,0.00139881,Contribution to economic development
+Philippines,3%,Philippines 3.4%,0.001865079,Value Chain Actors,Public sector corruption,5,0.008392857,Corruption
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,"Children in employment, total",3,0.00119898,Child labour
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,Evidence of violations of laws and employment regulations,3,0.00119898,"Social benefits, legal issues"
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,"Sector average wage, per month",4,0.00119898,Fair Salary
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,Trade union density,5,0.00119898,Freedom of association and collective bargaining
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,Weekly hours of work per employee,3,0.00119898,Working time
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,Women in the sectoral labour force,5,0.00119898,Discrimination
+Philippines,3%,Philippines 3.4%,0.001865079,Workers,Workers affected by natural disasters,5,0.00119898,Health and Safety
+Russia,5%,Russia 4.5%,0.0025,Local Community,Drinking water coverage,5,0.0028125,Safe and healthy living conditions
+Russia,5%,Russia 4.5%,0.0025,Local Community,International Migrant Stock,3,0.0028125,Migration
+Russia,5%,Russia 4.5%,0.0025,Local Community,Presence of indigenous population,3,0.0028125,Respect of indigenous rights
+Russia,5%,Russia 4.5%,0.0025,Local Community,Sanitation coverage,3,0.0028125,Safe and healthy living conditions
+Russia,5%,Russia 4.5%,0.0025,Society,Embodied value added total,5,0.001875,Contribution to economic development
+Russia,5%,Russia 4.5%,0.0025,Society,Global Peace Index,5,0.001875,Health and Safety
+Russia,5%,Russia 4.5%,0.0025,Society,"Health expenditure, total",3,0.001875,Health and Safety
+Russia,5%,Russia 4.5%,0.0025,Society,"Illiteracy rate, total",1,0.001875,Contribution to economic development
+Russia,5%,Russia 4.5%,0.0025,Society,Life expectancy at birth,2,0.001875,Health and Safety
+Russia,5%,Russia 4.5%,0.0025,Society,Public expenditure on education,3,0.001875,Contribution to economic development
+Russia,5%,Russia 4.5%,0.0025,Value Chain Actors,Public sector corruption,5,0.01125,Corruption
+Russia,5%,Russia 4.5%,0.0025,Workers,"Children in employment, total",4,0.001607143,Child labour
+Russia,5%,Russia 4.5%,0.0025,Workers,Evidence of violations of laws and employment regulations,3,0.001607143,"Social benefits, legal issues"
+Russia,5%,Russia 4.5%,0.0025,Workers,"Sector average wage, per month",2,0.001607143,Fair Salary
+Russia,5%,Russia 4.5%,0.0025,Workers,Trade union density,4,0.001607143,Freedom of association and collective bargaining
+Russia,5%,Russia 4.5%,0.0025,Workers,Weekly hours of work per employee,4,0.001607143,Working time
+Russia,5%,Russia 4.5%,0.0025,Workers,Women in the sectoral labour force,1,0.001607143,Discrimination
+Russia,5%,Russia 4.5%,0.0025,Workers,Workers affected by natural disasters,1,0.001607143,Health and Safety
+Rest of the world,13%,Rest of the world 13.4%,0.133571429,,,3.765501708,0.133571429,

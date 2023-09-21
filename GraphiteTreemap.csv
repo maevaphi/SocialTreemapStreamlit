@@ -1,0 +1,74 @@
+﻿Country,Refining share,Label,Area,Stakeholder,Indicator,Value,Area if each stakeholder has the same weight,Subcategory
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Local Community,Drinking water coverage,1,0.005397727,Safe and healthy living conditions
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Local Community,International Migrant Stock,1,0.005397727,Migration
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Local Community,Presence of indigenous population,3,0.005397727,Respect of indigenous rights
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Local Community,Sanitation coverage,4,0.005397727,Safe and healthy living conditions
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,Embodied value added total,5,0.003598485,Contribution to economic development
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,Global Peace Index,3,0.003598485,Health and Safety
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,"Health expenditure, total",2,0.003598485,Health and Safety
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,"Illiteracy rate, total",3,0.003598485,Contribution to economic development
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,Life expectancy at birth,2,0.003598485,Health and Safety
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Society,Public expenditure on education,1,0.003598485,Contribution to economic development
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Value Chain Actors,Public sector corruption,5,0.021590909,Corruption
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,"Children in employment, total",2,0.003084416,Child labour
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,Evidence of violations of laws and employment regulations,3,0.003084416,"Social benefits, legal issues"
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,"Sector average wage, per month",3,0.003084416,Fair Salary
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,Trade union density,5,0.003084416,Freedom of association and collective bargaining
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,Weekly hours of work per employee,2,0.003084416,Working time
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,Women in the sectoral labour force,1,0.003084416,Discrimination
+Brazil,0.086363636,Brazil 8.6%,0.00479798,Workers,Workers affected by natural disasters,1,0.003084416,Health and Safety
+China,0.590909091,China 59.1%,0.032828283,Local Community,Drinking water coverage,2,0.036931818,Safe and healthy living conditions
+China,0.590909091,China 59.1%,0.032828283,Local Community,International Migrant Stock,1,0.036931818,Migration
+China,0.590909091,China 59.1%,0.032828283,Local Community,Presence of indigenous population,3,0.036931818,Respect of indigenous rights
+China,0.590909091,China 59.1%,0.032828283,Local Community,Sanitation coverage,4,0.036931818,Safe and healthy living conditions
+China,0.590909091,China 59.1%,0.032828283,Society,Embodied value added total,2,0.024621212,Contribution to economic development
+China,0.590909091,China 59.1%,0.032828283,Society,Global Peace Index,3,0.024621212,Health and Safety
+China,0.590909091,China 59.1%,0.032828283,Society,"Health expenditure, total",4,0.024621212,Health and Safety
+China,0.590909091,China 59.1%,0.032828283,Society,"Illiteracy rate, total",3,0.024621212,Contribution to economic development
+China,0.590909091,China 59.1%,0.032828283,Society,Life expectancy at birth,1,0.024621212,Health and Safety
+China,0.590909091,China 59.1%,0.032828283,Society,Public expenditure on education,2,0.024621212,Contribution to economic development
+China,0.590909091,China 59.1%,0.032828283,Value Chain Actors,Public sector corruption,5,0.147727273,Corruption
+China,0.590909091,China 59.1%,0.032828283,Workers,"Children in employment, total",4,0.021103896,Child labour
+China,0.590909091,China 59.1%,0.032828283,Workers,Evidence of violations of laws and employment regulations,3,0.021103896,"Social benefits, legal issues"
+China,0.590909091,China 59.1%,0.032828283,Workers,"Sector average wage, per month",1,0.021103896,Fair Salary
+China,0.590909091,China 59.1%,0.032828283,Workers,Trade union density,3,0.021103896,Freedom of association and collective bargaining
+China,0.590909091,China 59.1%,0.032828283,Workers,Weekly hours of work per employee,3,0.021103896,Working time
+China,0.590909091,China 59.1%,0.032828283,Workers,Women in the sectoral labour force,1,0.021103896,Discrimination
+China,0.590909091,China 59.1%,0.032828283,Workers,Workers affected by natural disasters,4,0.021103896,Health and Safety
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Local Community,Drinking water coverage,4,0.002670455,Safe and healthy living conditions
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Local Community,International Migrant Stock,1,0.002670455,Migration
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Local Community,Presence of indigenous population,3,0.002670455,Respect of indigenous rights
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Local Community,Sanitation coverage,5,0.002670455,Safe and healthy living conditions
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,Embodied value added total,2,0.001780303,Contribution to economic development
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,Global Peace Index,3,0.001780303,Health and Safety
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,"Health expenditure, total",3,0.001780303,Health and Safety
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,"Illiteracy rate, total",5,0.001780303,Contribution to economic development
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,Life expectancy at birth,5,0.001780303,Health and Safety
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Society,Public expenditure on education,2,0.001780303,Contribution to economic development
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Value Chain Actors,Public sector corruption,5,0.010681818,Corruption
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,"Children in employment, total",5,0.001525974,Child labour
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,Evidence of violations of laws and employment regulations,4,0.001525974,"Social benefits, legal issues"
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,"Sector average wage, per month",1,0.001525974,Fair Salary
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,Trade union density,5,0.001525974,Freedom of association and collective bargaining
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,Weekly hours of work per employee,2,0.001525974,Working time
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,Women in the sectoral labour force,1,0.001525974,Discrimination
+Madagascar,0.042727273,Madagascar 4.3%,0.002373737,Workers,Workers affected by natural disasters,2,0.001525974,Health and Safety
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Local Community,Drinking water coverage,4,0.006818182,Safe and healthy living conditions
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Local Community,International Migrant Stock,1,0.006818182,Migration
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Local Community,Presence of indigenous population,3,0.006818182,Respect of indigenous rights
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Local Community,Sanitation coverage,4,0.006818182,Safe and healthy living conditions
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,Embodied value added total,2,0.004545455,Contribution to economic development
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,Global Peace Index,3,0.004545455,Health and Safety
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,"Health expenditure, total",4,0.004545455,Health and Safety
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,"Illiteracy rate, total",3,0.004545455,Contribution to economic development
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,Life expectancy at birth,1,0.004545455,Health and Safety
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Society,Public expenditure on education,2,0.004545455,Contribution to economic development
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Value Chain Actors,Public sector corruption,5,0.027272727,Corruption
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,"Children in employment, total",4,0.003896104,Child labour
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,Evidence of violations of laws and employment regulations,3,0.003896104,"Social benefits, legal issues"
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,"Sector average wage, per month",1,0.003896104,Fair Salary
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,Trade union density,3,0.003896104,Freedom of association and collective bargaining
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,Weekly hours of work per employee,3,0.003896104,Working time
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,Women in the sectoral labour force,1,0.003896104,Discrimination
+Mozambique,0.109090909,Mozambique 10.9%,0.006060606,Workers,Workers affected by natural disasters,4,0.003896104,Health and Safety
+Rest of the world,0.170909091,Rest of the world 17.1%,0.170909091,,,3.207648026,0.170909091,
