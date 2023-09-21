@@ -41,7 +41,7 @@ def treemap(df, name):
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    st.plotly_chart(fig, use_container_width=True, showlegend="false")
+    st.plotly_chart(fig, use_container_width=True, showlegend=False)
 
 if level =="Raw material mining":
     st.subheader(":blue[You can see below the social risks of the mining of raw materials]")
