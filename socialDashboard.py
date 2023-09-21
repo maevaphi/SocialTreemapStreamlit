@@ -39,9 +39,9 @@ def treemap(df, name):
                values='Area if each stakeholder has the same weight',
                color='Value',
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
-               labels={"Value":"Risk"},
-               legend= False)
-    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2), showlegend=False)
+               labels={"Value":"Risk"})
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    fig.update_layout(showlegend=False)
     st.plotly_chart(fig, use_container_width=True)
 
 if level =="Raw material mining":
