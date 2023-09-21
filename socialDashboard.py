@@ -19,12 +19,22 @@ from PIL import Image
 
 st.divider()
 
-level = st.radio("What level you want to see the social impacts",["Raw material mining","Active material","Cell processing"])
+level = st.radio("What level you want to see the social impacts?",["Raw material mining","Raw material refining","Active material","Cell processing"])
 
-def treemap(df, name):
+def treemapAM(df, name):
     """Returns the treemap for a cathode active material"""
     fig=px.treemap(df,path=[px.Constant(name),'Material','Label','Stakeholder','Indicator'],
                values='Area',
+               color='Value',
+               color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
+    st.plotly_chart(fig, use_container_width=True)
+
+def treemap(df, name):
+    """Returns the treemap for mining or refining of raw material"""
+    fig=px.treemap(df,path=[px.Constant(name),'Label','Stakeholder','Subcategory','Indicator'],
+               values='Area if each stakeholder has the same weight',
                color='Value',
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
@@ -97,13 +107,13 @@ if level == "Active material":
 
 
     with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
-        treemap(NMC622,"NMC622")
+        treemapAM(NMC622,"NMC622")
     
     with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
-        treemap(NMC811,"NMC811")
+        treemapAM(NMC811,"NMC811")
 
     with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
-        treemap(LNMO,"LNMO")
+        treemapAM(LNMO,"LNMO")
 
 st.subheader(':blue[More info]')
 
