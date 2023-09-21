@@ -41,7 +41,7 @@ def treemap(df, name):
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    fig.layout.showlegend = False
+    fig.update_layout(showlegend = False)
     st.plotly_chart(fig, use_container_width=True)
 
 if level =="Raw material mining":
