@@ -9,21 +9,17 @@ import pandas as pd
 import plotly.express as px
 from PIL import Image
 
-#st.title("Social impacts of mining raw materials for battery active materials")
+#st.title("Social impacts of mining and refining raw materials for battery active materials")
 
-img = Image.open("LCMtitle.jpg")
-st.image(img)
+#img = Image.open("LCMtitle.jpg") title for LCM app
+#st.image(img)
 
 'Maeva LAVIGNE PHILIPPOT, Joeri VAN MIERLO, Maarten MESSAGIE'
 'VUB, Belgium'
 
 st.divider()
 
-st.subheader(":blue[You can see below the social impacts of the mining of raw materials for 3 battery cathode active materials]")
-
-NMC622 = pd.read_csv("NMC622Treemap.csv")
-NMC811 = pd.read_csv("NMC811Treemap.csv")
-LNMO = pd.read_csv("LNMOTreemap.csv")
+level = st.radio("What level you want to see the social impacts",["Raw material mining","Active material","Cell processing"])
 
 def treemap(df, name):
     """Returns the treemap for a cathode active material"""
@@ -35,14 +31,79 @@ def treemap(df, name):
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
     st.plotly_chart(fig, use_container_width=True)
 
-with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
-    treemap(NMC622,"NMC622")
-    
-with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
-    treemap(NMC811,"NMC811")
+if level =="Raw material mining":
+    st.subheader(":blue[You can see below the social impacts of the mining of raw materials]")
 
-with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
-    treemap(LNMO,"LNMO")
+    cobaltM = pd.read_csv("CobaltMiningTreemap.csv")
+    copperM = pd.read_csv("CopperMiningTreemap.csv")
+    graphiteM = pd.read_csv("GraphiteTreemap.csv")
+    lithiumM = pd.read_csv("LithiumMiningTreemap.csv")
+    manganeseM = pd.read_csv("ManganeseMiningTreemap.csv")
+    nickelM = pd.read_csv("NickelMiningTreemap.csv")
+
+    with st.expander("Mining of cobalt"): 
+        treemap(cobaltM,"Cobalt mining")
+    
+    with st.expander("Mining of copper"): 
+        treemap(copperM,"Copper mining")
+
+    with st.expander("Mining of natural graphite"):
+        treemap(graphiteM,"Natural graphite mining")
+
+    with st.expander("Mining of lithium"):
+        treemap(lithiumM,"Lithium mining")
+
+    with st.expander("Mining of manganese"):
+        treemap(manganeseM,"Manganese mining")
+
+    with st.expander("Mining of nickel"):
+        treemap(nickelM,"Nickel mining")
+
+if level =="Raw material refining":
+    st.subheader(":blue[You can see below the social impacts of the refining of raw materials]")
+
+    cobaltR = pd.read_csv("CobaltRefiningTreemap.csv")
+    copperR = pd.read_csv("CopperRefiningTreemap.csv")
+    graphiteS = pd.read_csv("GraphiteSyntheticTreemap.csv")
+    lithiumR = pd.read_csv("LithiumRefiningTreemap.csv")
+    manganeseR = pd.read_csv("ManganeseRefiningTreemap.csv")
+    nickelR = pd.read_csv("NickelRefiningTreemap.csv")
+
+    with st.expander("Refining of cobalt"): 
+        treemap(cobaltR,"Cobalt refining")
+    
+    with st.expander("Refining of copper"): 
+        treemap(copperR,"Copper refining")
+
+    with st.expander("Synthetic graphite"):
+        treemap(graphiteS,"Synthetic graphite")
+
+    with st.expander("Refining of lithium"):
+        treemap(lithiumR,"Lithium refining")
+
+    with st.expander("Refining of manganese"):
+        treemap(manganeseR,"Manganese refining")
+
+    with st.expander("Refining of nickel"):
+        treemap(nickelR,"Nickel refining")
+
+
+if level == "Active material":
+    st.subheader(":blue[You can see below the social impacts of the mining of raw materials for 3 battery cathode active materials]")
+
+    NMC622 = pd.read_csv("NMC622Treemap.csv")
+    NMC811 = pd.read_csv("NMC811Treemap.csv")
+    LNMO = pd.read_csv("LNMOTreemap.csv")
+
+
+    with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
+        treemap(NMC622,"NMC622")
+    
+    with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
+        treemap(NMC811,"NMC811")
+
+    with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
+        treemap(LNMO,"LNMO")
 
 st.subheader(':blue[More info]')
 
