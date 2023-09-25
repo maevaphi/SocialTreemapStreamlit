@@ -126,23 +126,23 @@ Peru,0.11,Peru 11%,0.006111111,Workers,Weekly hours of work per employee,,2,0.00
 Peru,0.11,Peru 11%,0.006111111,Workers,Women in the sectoral labour force,,5,0.003928571,Discrimination
 Peru,0.11,Peru 11%,0.006111111,Workers,Workers affected by natural disasters,,2,0.003928571,Health and Safety
 Russia,0.0425,Russia 4.3%,0.002361111,Local Community,Drinking water coverage,,5,0.00265625,Safe and healthy living conditions
-Russia,0.0425,Russia 4.3%,0.002361111,Local Community,International Migrant Stock,,1,0.00265625,Migration
+Russia,0.0425,Russia 4.3%,0.002361111,Local Community,International Migrant Stock,,3,0.00265625,Migration
 Russia,0.0425,Russia 4.3%,0.002361111,Local Community,Presence of indigenous population,,3,0.00265625,Respect of indigenous rights
-Russia,0.0425,Russia 4.3%,0.002361111,Local Community,Sanitation coverage,,5,0.00265625,Safe and healthy living conditions
+Russia,0.0425,Russia 4.3%,0.002361111,Local Community,Sanitation coverage,,3,0.00265625,Safe and healthy living conditions
 Russia,0.0425,Russia 4.3%,0.002361111,Society,Embodied value added total,,5,0.001770833,Contribution to economic development
-Russia,0.0425,Russia 4.3%,0.002361111,Society,Global Peace Index,,2,0.001770833,Health and Safety
+Russia,0.0425,Russia 4.3%,0.002361111,Society,Global Peace Index,,5,0.001770833,Health and Safety
 Russia,0.0425,Russia 4.3%,0.002361111,Society,"Health expenditure, total",,3,0.001770833,Health and Safety
-Russia,0.0425,Russia 4.3%,0.002361111,Society,"Illiteracy rate, total",,3,0.001770833,Contribution to economic development
+Russia,0.0425,Russia 4.3%,0.002361111,Society,"Illiteracy rate, total",,1,0.001770833,Contribution to economic development
 Russia,0.0425,Russia 4.3%,0.002361111,Society,Life expectancy at birth,,2,0.001770833,Health and Safety
 Russia,0.0425,Russia 4.3%,0.002361111,Society,Public expenditure on education,,3,0.001770833,Contribution to economic development
 Russia,0.0425,Russia 4.3%,0.002361111,Value Chain Actors,Public sector corruption,,5,0.010625,Corruption
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,"Children in employment, total",,5,0.001517857,Child labour
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,"Children in employment, total",,4,0.001517857,Child labour
 Russia,0.0425,Russia 4.3%,0.002361111,Workers,Evidence of violations of laws and employment regulations,,3,0.001517857,"Social benefits, legal issues"
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,"Sector average wage, per month",,3,0.001517857,Fair Salary
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,Trade union density,,5,0.001517857,Freedom of association and collective bargaining
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,Weekly hours of work per employee,,2,0.001517857,Working time
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,Women in the sectoral labour force,,5,0.001517857,Discrimination
-Russia,0.0425,Russia 4.3%,0.002361111,Workers,Workers affected by natural disasters,,2,0.001517857,Health and Safety
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,"Sector average wage, per month",,2,0.001517857,Fair Salary
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,Trade union density,,4,0.001517857,Freedom of association and collective bargaining
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,Weekly hours of work per employee,,4,0.001517857,Working time
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,Women in the sectoral labour force,,1,0.001517857,Discrimination
+Russia,0.0425,Russia 4.3%,0.002361111,Workers,Workers affected by natural disasters,,1,0.001517857,Health and Safety
 USA,0.06,USA 6%,0.003333333,Local Community,Drinking water coverage,,1,0.00375,Safe and healthy living conditions
 USA,0.06,USA 6%,0.003333333,Local Community,International Migrant Stock,,4,0.00375,Migration
 USA,0.06,USA 6%,0.003333333,Local Community,Presence of indigenous population,,0,0.00375,Respect of indigenous rights
