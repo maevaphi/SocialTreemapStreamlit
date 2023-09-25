@@ -35,14 +35,21 @@ def treemapAM(df, name):
 
 def treemap(df, name):
     """Returns the treemap for mining or refining of raw material"""
-    fig=px.treemap(df,path=[px.Constant(name),'Label','Stakeholder','Subcategory','Indicator'],
+    if df["Value"].min() == 0:
+        fig=px.treemap(df,path=[px.Constant(name),'Label','Stakeholder','Subcategory','Indicator'],
+               values='Area if each stakeholder has the same weight',
+               color='Value',
+               color_continuous_scale=['rgb(0, 102, 51), "yellow", "orange", "red"],
+               labels={"Value":"Risk"})
+    if df["Value"].min() == 1:
+        fig=px.treemap(df,path=[px.Constant(name),'Label','Stakeholder','Subcategory','Indicator'],
                values='Area if each stakeholder has the same weight',
                color='Value',
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-    #trying to hid the legend but does not work fig.update_layout(showlegend = False)
-    st.plotly_chart(fig, use_container_width=True)
+        #trying to hide the legend but does not work fig.update_layout(showlegend = False)
+        st.plotly_chart(fig, use_container_width=True)
 
 if level =="Raw material mining":
     st.subheader(":blue[You can see below the social risks of the mining of raw materials]")
