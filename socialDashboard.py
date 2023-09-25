@@ -48,8 +48,8 @@ def treemap(df, name):
                color_continuous_scale=["blue", "green", "yellow", "orange", "red"],
                labels={"Value":"Risk"})
     fig.update_layout(margin = dict(t=2, l=2, r=2, b=2))
-        #trying to hide the legend but does not work fig.update_layout(showlegend = False)
-        st.plotly_chart(fig, use_container_width=True)
+    #trying to hide the legend but does not work fig.update_layout(showlegend = False)
+    st.plotly_chart(fig, use_container_width=True)
 
 if level =="Raw material mining":
     st.subheader(":blue[You can see below the social risks of the mining of raw materials]")
@@ -138,6 +138,7 @@ if level == "Active material":
 
 if level == "Active material":
     st.write("Work in progress")
+
 st.subheader(':blue[More info]')
 
 with st.expander("How to navigate"):
