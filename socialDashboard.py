@@ -9,7 +9,7 @@ import pandas as pd
 import plotly.express as px
 from PIL import Image
 
-#st.title("Social impacts of mining and refining raw materials for battery active materials")
+st.title("Social impacts of mining and refining raw materials for battery active materials")
 
 #img = Image.open("LCMtitle.jpg") title for LCM app
 #st.image(img)
@@ -19,7 +19,8 @@ from PIL import Image
 
 st.divider()
 
-level = st.radio("What level you want to see the social risks?",["Raw material mining","Raw material refining","Active material","Cell processing"])
+#level = st.radio("What level you want to see the social risks?",["Raw material mining","Raw material refining","Active material","Cell processing"])
+level = st.radio("What level you want to see the social risks?",["Raw material mining","Raw material refining"])
 
 legend = Image.open("Legend.PNG")
 
@@ -119,25 +120,22 @@ if level =="Raw material refining":
         treemap(nickelR,"Nickel refining")
         st.image(legend)
         
-if level == "Active material":
-    st.subheader(":blue[You can see below the social risks of the mining of raw materials for 3 battery cathode active materials]")
+#if level == "Active material":
+#    st.subheader(":blue[You can see below the social risks of the mining of raw materials for 3 battery cathode active materials]")
 
-    NMC622 = pd.read_csv("NMC622Treemap.csv")
-    NMC811 = pd.read_csv("NMC811Treemap.csv")
-    LNMO = pd.read_csv("LNMOTreemap.csv")
+#    NMC622 = pd.read_csv("NMC622Treemap.csv")
+#    NMC811 = pd.read_csv("NMC811Treemap.csv")
+#    LNMO = pd.read_csv("LNMOTreemap.csv")
 
-    with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
-        treemapAM(NMC622,"NMC622")
-        st.image(legend)    
-    with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
-        treemapAM(NMC811,"NMC811")
-        st.image(legend)
-    with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
-        treemapAM(LNMO,"LNMO")
-        st.image(legend)
-
-if level == "Active material":
-    st.write("Work in progress")
+#    with st.expander("NMC622 (LiNi\u2080.\u2086Mn\u2080.\u2082Co\u2080.\u2082O\u2082)"): 
+#        treemapAM(NMC622,"NMC622")
+#        st.image(legend)    
+#    with st.expander("NMC811 (LiNi\u2080.\u2088Mn\u2080.\u2081Co\u2080.\u2081O\u2082)"): 
+#        treemapAM(NMC811,"NMC811")
+#        st.image(legend)
+#    with st.expander("LNMO (Li\u2082NiMn\u2083O\u2088)"):
+#        treemapAM(LNMO,"LNMO")
+#        st.image(legend)
 
 st.subheader(':blue[More info]')
 
@@ -174,10 +172,10 @@ st.divider()
 
 st.divider()
 
-#logo = Image.open("AM4BAT - Brand PNG.png")
-#st.image(logo, width=200)
+logo = Image.open("AM4BAT - Brand PNG.png")
+st.image(logo, width=200)
 
-#'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
-#'https://am4batproject.eu/'
-#flag = Image.open("EU.jpg")
-#st.image(flag, width=100)
+'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
+'https://am4batproject.eu/'
+flag = Image.open("EU.jpg")
+st.image(flag, width=100)
