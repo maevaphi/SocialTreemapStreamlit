@@ -69,20 +69,20 @@ else:
 
 
 with st.expander("Data sources"):
-    'The market share of each mining and refining country for cobalt, copper, graphite, lithium, manganese and nickel, '
+    st.write('The market share of each mining and refining country for cobalt, copper, graphite, lithium, manganese and nickel, '
     'is based on data from the U.S. Geological Survey, the British Geological Survey, '
     'the market share between synthetic and natural graphite is sourced from the JRC (Clean energy technology observatory: '
     'batteries for energy storage in the European Union - 2022 status report on technology development, '
     'trends, value chains and markets) '
-    'and the World Bank for synthetic graphite.' 
-    'For the manufacturing step of the batteries, the previous JRC publication '
-    'is used to retrieve the market share of the main supplying countries.'
-    'For the use stage, the activity variable is the country electricity '
-    'demand for electric passenger cars, which is retrieved from the IEA Global EV Outlook.'
-    'For recycling, the activity variable is the recycling capacity in kt '
+    'and the World Bank for synthetic graphite.' )
+    st.write('For the manufacturing step of the batteries, the previous JRC publication '
+    'is used to retrieve the market share of the main supplying countries.')
+    st.write('For the use stage, the activity variable is the country electricity '
+    'demand for electric passenger cars, which is retrieved from the IEA Global EV Outlook.')
+    st.write('For recycling, the activity variable is the recycling capacity in kt '
     'of cell-equivalent mass of total recyclable material at country level. '
     'This information is sourced from IEA  EV Battery Supply Chain Sustainability which shows battery recycling '
-    'capacity for pretreatment and material recovery '
+    'capacity for pretreatment and material recovery. ')
 
 
 st.divider()
