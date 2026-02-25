@@ -9,12 +9,12 @@ import os
 
 
 
-st.title("Social impacts of mining and refining raw materials for battery active materials")
+st.title("Interactive Social Treemap for Batteries: Direct Social Impacts of Supplying Countries ")
 
 #img = Image.open("LCMtitle.jpg") title for LCM app
 #st.image(img)
 
-'Maeva LAVIGNE PHILIPPOT, Joeri VAN MIERLO, Maarten MESSAGIE'
+'Maeva LAVIGNE PHILIPPOT, Daniele COSTA, Maarten MESSAGIE'
 'VUB, Belgium'
 
 st.divider()
