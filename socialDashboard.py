@@ -60,18 +60,13 @@ else:
                 html_content = f.read()
 
             st.components.v1.html(html_content, height=750, scrolling=True)
+            st.image("Legend.PNG", use_container_width=True)
 
         else:
             st.error(f"{file_name} not found.")
 
-legend = Image.open("Legend.PNG")
 
 
-
-
-if level =="Mining":
-    st.subheader(":blue[You can see below the social risks of the mining of raw materials for NMC811 cathode]")
-    html_file = "Mining step of NMC811 cathode.html"
 
 
 st.divider()
@@ -82,12 +77,9 @@ st.divider()
 
 st.divider()
 
-logo = Image.open("AM4BAT - Brand PNG.png")
-st.image(logo, width=200)
 
 'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
 'https://am4batproject.eu/'
-flag = Image.open("EU.jpg")
-st.image(flag, width=100)
+
 
 
