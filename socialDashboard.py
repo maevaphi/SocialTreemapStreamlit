@@ -19,7 +19,7 @@ st.title("Interactive Social Treemap for Batteries: Direct Social Impacts of Sup
 
 st.divider()
 
-level = st.radio("What level you want to see the social risks?",["Mining","Refining","Cell manufacturing","Use stage","Recycling"])
+level = st.radio("What level you want to see the social risks?",["Mining","Refining","Cell manufacturing","Use stage","Recycling"], index = None)
 
 folder_path = "html files"
 
