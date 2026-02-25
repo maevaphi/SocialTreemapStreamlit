@@ -8,23 +8,6 @@ import streamlit as st
 import os
 
 
-st.markdown("""
-<style>
-.block-container {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-
-iframe {
-    margin-bottom: 0rem;
-}
-
-img {
-    margin-top: 0rem;
-}
-</style>
-""", unsafe_allow_html=True)
-
 
 st.title("Interactive Social Treemap for Batteries: Direct Social Impacts of Supplying Countries ")
 
@@ -73,11 +56,13 @@ else:
 
             st.markdown(f"**{file_name.replace('.html','')}**")
 
+            st.image("Legend.PNG", use_container_width=True)
+
             with open(file_path, "r", encoding="utf-8") as f:
                 html_content = f.read()
 
             st.components.v1.html(html_content, height=700, scrolling=True)
-            st.image("Legend.PNG", use_container_width=True)
+            
 
         else:
             st.error(f"{file_name} not found.")
