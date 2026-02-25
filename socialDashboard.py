@@ -46,7 +46,7 @@ file_mapping = {
 selected_files = file_mapping.get(level, [])
 
 if not selected_files:
-    st.warning("No treemaps available for this level.")
+    st.warning("Select a life cycle stage.")
 else:
     for file_name in selected_files:
 
