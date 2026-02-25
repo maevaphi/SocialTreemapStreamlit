@@ -54,12 +54,12 @@ else:
 
         if os.path.exists(file_path):
 
-            st.subheader(file_name.replace(".html",""))
+            st.markdown(f"**{file_name.replace('.html','')}**")
 
             with open(file_path, "r", encoding="utf-8") as f:
                 html_content = f.read()
 
-            st.components.v1.html(html_content, height=750, scrolling=True)
+            st.components.v1.html(html_content, height=700, scrolling=True)
             st.image("Legend.PNG", use_container_width=True)
 
         else:
