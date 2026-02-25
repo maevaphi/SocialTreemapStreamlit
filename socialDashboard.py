@@ -83,6 +83,7 @@ with st.expander("Data sources"):
     'of cell-equivalent mass of total recyclable material at country level. '
     'This information is sourced from IEA  EV Battery Supply Chain Sustainability which shows battery recycling '
     'capacity for pretreatment and material recovery. ')
+    st.write('The risk level for each country sector is extracted from PSILCA v3.1 ')
 
 
 st.divider()
