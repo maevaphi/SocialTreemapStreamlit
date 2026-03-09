@@ -26,11 +26,13 @@ folder_path = "html files"
 file_mapping = {
     "Mining": [
         "Mining step of NMC811 cathode.html",
-        "Mining step of LNMO cathode.html"
+        "Mining step of LNMO cathode.html",
+        "Mining step of natural graphite anode.html"
     ],
     "Refining": [
         "Refining step of NMC811 cathode.html",
-        "Refining step of LNMO cathode.html"
+        "Refining step of LNMO cathode.html",
+        "Refining step of artificial graphite anode"
     ],
     "Cell manufacturing": [
         "Cell manufacturing.html"
