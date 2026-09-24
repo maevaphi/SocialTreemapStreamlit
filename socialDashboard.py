@@ -25,12 +25,14 @@ file_mapping = {
     "Mining": [
         "Mining step of NMC811 cathode.html",
         "Mining step of LNMO cathode.html",
-        "Mining step of natural graphite anode.html"
+        "Mining step of natural graphite anode.html",
+        "Mining step of Tin coated current collector.html"
     ],
     "Refining": [
         "Refining step of NMC811 cathode.html",
         "Refining step of LNMO cathode.html",
-        "Refining step of artificial graphite anode"
+        "Refining step of artificial graphite anode.html",
+        "Refining step of Sn anode on Cu foil.html"
     ],
     "Cell manufacturing": [
         "Cell manufacturing capacity.html"
