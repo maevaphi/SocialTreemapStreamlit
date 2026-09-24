@@ -9,10 +9,8 @@ import os
 
 
 
-st.title("Interactive Social Treemap for Batteries: Direct Social Impacts of Supplying Countries ")
+st.title("Social Life Cycle Impacts of Batteries using Interactive Social Treemaps")
 
-#img = Image.open("LCMtitle.jpg") title for LCM app
-#st.image(img)
 
 'Maeva LAVIGNE PHILIPPOT, Daniele COSTA, Maarten MESSAGIE'
 'VUB, Belgium'
@@ -35,7 +33,7 @@ file_mapping = {
         "Refining step of artificial graphite anode"
     ],
     "Cell manufacturing": [
-        "Cell manufacturing.html"
+        "Cell manufacturing capacity.html"
     ],
     "Use stage": [
         "Electricity demand.html"
@@ -72,7 +70,7 @@ else:
 
 with st.expander("Data sources"):
     st.write('The market share of each mining and refining country for cobalt, copper, graphite, lithium, manganese and nickel, '
-    'is based on data from the U.S. Geological Survey, the British Geological Survey, '
+    'is based on data from the U.S. Geological Survey, the British Geological Survey (https://doi.org/10.3133/mcs2022), '
     'the market share between synthetic and natural graphite is sourced from the JRC (Clean energy technology observatory: '
     'batteries for energy storage in the European Union - 2022 status report on technology development, '
     'trends, value chains and markets) '
@@ -80,7 +78,7 @@ with st.expander("Data sources"):
     st.write('For the manufacturing step of the batteries, the previous JRC publication '
     'is used to retrieve the market share of the main supplying countries.')
     st.write('For the use stage, the activity variable is the country electricity '
-    'demand for electric passenger cars, which is retrieved from the IEA Global EV Outlook.')
+    'demand for electric passenger cars, which is retrieved from the IEA Global EV Outlook 2024.')
     st.write('For recycling, the activity variable is the recycling capacity in kt '
     'of cell-equivalent mass of total recyclable material at country level. '
     'This information is sourced from IEA  EV Battery Supply Chain Sustainability which shows battery recycling '
@@ -97,8 +95,7 @@ st.divider()
 st.divider()
 
 
-'This project has received funding from the European Union Horizon 2020 research and innovation programme under grant agreement No 101069756.'
-'https://am4batproject.eu/'
+'This work was supported by the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101069756 (AM4BAT project) and Grant Agreement No. 101091852 (REBORN project). The authors acknowledge the European Commission and project partners for their valuable contributions. The information and views expressed in this publication are solely those of the authors and do not reflect the position of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for any use that may be made of the information contained herein. '
 
 
 
