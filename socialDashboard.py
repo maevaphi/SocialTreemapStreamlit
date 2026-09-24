@@ -12,8 +12,8 @@ import os
 st.title("Social Life Cycle Impacts of Batteries using Interactive Social Treemaps")
 
 
-'Maeva LAVIGNE PHILIPPOT, Daniele COSTA, Maarten MESSAGIE'
-'VUB, Belgium'
+#'Maeva LAVIGNE PHILIPPOT, Daniele COSTA, Maarten MESSAGIE'
+#'VUB, Belgium'
 
 st.divider()
 
@@ -90,14 +90,14 @@ with st.expander("Data sources"):
 
 st.divider()
 
-'maeva.philippot@vub.be'
+#'maeva.philippot@vub.be'
 
-'www.linkedin.com/in/maeva-lavigne-philippot'
+#'www.linkedin.com/in/maeva-lavigne-philippot'
 
 st.divider()
 
 
-'This work was supported by the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101069756 (AM4BAT project) and Grant Agreement No. 101091852 (REBORN project). The authors acknowledge the European Commission and project partners for their valuable contributions. The information and views expressed in this publication are solely those of the authors and do not reflect the position of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for any use that may be made of the information contained herein. '
+#'This work was supported by the European Union’s Horizon Europe research and innovation programme under Grant Agreement No. 101069756 (AM4BAT project) and Grant Agreement No. 101091852 (REBORN project). The authors acknowledge the European Commission and project partners for their valuable contributions. The information and views expressed in this publication are solely those of the authors and do not reflect the position of the European Union or the European Commission. Neither the European Union nor the granting authority can be held responsible for any use that may be made of the information contained herein. '
 
 
 
